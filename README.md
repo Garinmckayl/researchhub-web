@@ -16,6 +16,12 @@ Install git hooks
 
 `$ ./scripts/install-hooks`
 
+## NOTE
+```
+Please note that we have intentionally removed deployment / API tokens & scripts for security purposes. 
+You will need to setup your own deployment rules.  
+```
+
 **Migrating to husky**
 
 To use husky instead of git hooks manually:
