@@ -9,20 +9,9 @@ Please note that we have intentionally removed deployment / API tokens & scripts
 You will need to setup your own deployment rules.  
 ```
 
-**Migrating to husky**
-
-To use husky instead of git hooks manually:
-1. Delete or move the original git hooks `$ mkdir .git/hooks-old && cp -R .git/hooks .git/hooks-old`
-2. Re-add husky `$ yarn remove husky` `$ yarn add husky --dev`
-3. Husky should write the hook files for you. You can check this by printing the hook file `$ cat .git/hooks/pre-push` and checking it starts with this:
-```
-#!/bin/sh
-# husky
-```
-
 For more info see https://github.com/typicode/husky
 
 ## Making Changes
 
-Running `$ git push` will trigger a git pre-push hook that will run all tests.
-If you want to push something without testing it run `$ git push --no-verify`. (This is not recommended :)
+The ResearchHub Dev team is currently maintaining this repo once every month. 
+Please feel free to make any pull requests for suggestions.
