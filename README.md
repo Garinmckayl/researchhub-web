@@ -9,7 +9,6 @@ Please note that we have intentionally removed deployment / API tokens & scripts
 You will need to setup your own deployment rules.  
 ```
 
-For more info see https://github.com/typicode/husky
 
 ## Making Changes
 
