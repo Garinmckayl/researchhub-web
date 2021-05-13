@@ -1,0 +1,6 @@
+[auth]
+token=[token]
+
+[defaults]
+project=researchhub-web
+org=quantfive

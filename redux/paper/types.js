@@ -1,0 +1,33 @@
+export const GET_PAPER = "@@paper/GET_PAPER";
+export const GET_PAPER_USER_VOTE_PENDING =
+  "@@paper/GET_PAPER_USER_VOTE_PENDING";
+export const GET_PAPER_USER_VOTE_FAILURE =
+  "@@paper/GET_PAPER_USER_VOTE_FAILURE";
+export const GET_PAPER_USER_VOTE_SUCCESS =
+  "@@paper/GET_PAPER_USER_VOTE_SUCCESS";
+export const UPLOAD_PAPER_TO_STATE = "@@paper/SAVE_PAPER_TO_STATE";
+export const REMOVE_PAPER_FROM_STATE = "@@paper/REMOVE_PAPER_FROM_STATE";
+
+export const POST_PAPER_PENDING = "@@paper/POST_PAPER_PENDING";
+export const POST_PAPER_FAILURE = "@@paper/POST_PAPER_FAILURE";
+export const POST_PAPER_SUCCESS = "@@paper/POST_PAPER_SUCCESS";
+
+export const PATCH_PAPER_PENDING = "@@paper/PATCH_PAPER_PENDING";
+export const PATCH_PAPER_FAILURE = "@@paper/PATCH_PAPER_FAILURE";
+export const PATCH_PAPER_SUCCESS = "@@paper/PATCH_PAPER_SUCCESS";
+
+export const PUT_PAPER_PENDING = "@@paper/PUT_PAPER_PENDING";
+export const PUT_PAPER_FAILURE = "@@paper/PUT_PAPER_FAILURE";
+export const PUT_PAPER_SUCCESS = "@@paper/PUT_PAPER_SUCCESS";
+
+export const POST_PAPER_SUMMARY_PENDING = "@@paper/POST_PAPER_SUMMARY_PENDING";
+export const POST_PAPER_SUMMARY_FAILURE = "@@paper/POST_PAPER_SUMMARY_FAILURE";
+export const POST_PAPER_SUMMARY_SUCCESS = "@@paper/POST_PAPER_SUMMARY_SUCCESS";
+export const GET_EDITS = "@@paper/GET_EDITS";
+
+export const CLEAR_POSTED_PAPER = "@@paper/CLEAR_POSTED_PAPER";
+export const GET_THREADS = "@@paper/GET_THREADS";
+
+export const UPDATE_PAPER_STATE = "@@paper/UPDATE_PAPER_STATE";
+
+export const GET_TWITTER_THREADS = "@@paper/GET_TWITTER_THREADS";
